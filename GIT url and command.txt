@@ -1,0 +1,38 @@
+https://NE1ITCPRHAS62.ne1.savvis.net/RX_MOTIVE_FLOWS_DEV/smp-configuration-hsi.git 
+
+
+
+1. git status
+2. git checkout CTL_HSI_POTS_6_0
+3. git status
+4. git pull
+5. git log -2
+   Paste the corresponding file to corresponding folder
+6. git status
+7. git add FILE_PATH_NAME
+   ex:- git add workflow/CTL_Transmission.mwf
+8. git status
+9. git commit -m "Message"
+    ex:-git commit -m "Prakasha EDGE-1374"
+10. git push -u origin CTL_HSI_POTS_6_0
+11. git status
+12. git log -3
+
+done.............
+<==============================================================>
+
+6. git status
+7. git add FILE_PATH_NAME
+   ex:- git add workflow/CTL_Transmission.mwf
+8. git status
+9. git commit -m "Message"
+    ex:-git commit -m "Prakasha EDGE-1374"
+10. git push -u origin CTL_HSI_POTS_CRIS_March27_v5_1
+11. git status
+12. git log -3
+==============================================================
+ git whatchanged --since '03/26/2020' --until '03/27/2020' --oneline --name-only --pretty=format: | sort | uniq
+ 
+ git log --since '03/26/2020' --until '03/27/2020' --oneline --name-only --pretty=format: | sort | uniq
+ 
+ git log --since '03/26/2020' --until '03/27/2020' --oneline --name-only --pretty=format: | sort | uniq >> C:/Users/AC42929/Downloads/PRODUCTION/fileUpdate.txt
